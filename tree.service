@@ -4,7 +4,7 @@ Description="RGB Tree"
 [Service]
 TimeoutStartSec=30
 WorkingDirectory=/home/pi/tree
-ExecStart=/usr/local/bin/python3.7 /home/pi/tree/thetree.py --service --log DEBUG
+ExecStart=/usr/bin/python3 /home/pi/tree/thetree.py --service --log DEBUG
 Restart=always
 KillSignal=SIGINT
 #User=pi
