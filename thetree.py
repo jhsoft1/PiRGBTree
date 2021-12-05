@@ -596,6 +596,8 @@ except Exception as e:
 """
 
 # ------------------------------------- Timing loop ---------------------------------
+# Need to start with something
+fixed_colour = random_color()
 
 stopping = False
 
